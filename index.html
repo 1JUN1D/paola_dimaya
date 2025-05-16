@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaolaDimaya | Alta Costura | Diseñadora de Vestidos de Novia y Trajes de Ceremonia</title>
+    <meta name="description" content="Diseñadora de alta costura especializada en vestidos de novia elegantes, trajes de ceremonia y vestidos de gala exclusivos. Confección a medida, venta y renta en Bogotá.">
+    <meta name="keywords" content="vestido de novias, alta costura, trajes ceremonia, vestidos de gala, trajes novios, vestido de novia elegante, alta costura bogota, diseñadora de moda nupcial">
+    
+    <!-- Favicon placeholder -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FashionDesigner",
+      "name": "PaolaDimaya",
+      "description": "Diseñadora de alta costura especializada en vestidos de novia elegantes, trajes de ceremonia y vestidos de gala exclusivos.",
+      "url": "https://www.paoladimaya.com",
+      "image": "https://www.paoladimaya.com/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bogotá",
+        "addressCountry": "CO"
+      },
+      "priceRange": "$$$$"
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">PaolaDimaya</div>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#collections">Colecciones</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="nav-mobile">
+        <span class="nav-close"><i class="fas fa-times"></i></span>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#collections">Colecciones</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="nav-overlay"></div>
+    
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <video class="hero-background" autoplay muted loop playsinline>
+        <source src="../wallpaper.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+        <h1>Paola Dimaya</h1>
+        <p class="hero-tagline">Diseñadora de Alta Costura</p>
+        <p>Creaciones exquisitas para momentos inolvidables. Vestidos de novia y trajes de ceremonia confeccionados a medida con la más alta calidad y dedicación.</p>
+        <div class="hero-buttons">
+            <a href="#collections" class="btn">Ver Colecciones</a>
+            <a href="https://api.whatsapp.com/send?phone=573016256476&text=¡Hola%20Paola!%20Me%20gustaría%20trabajar%20contigo.%20¿Podrías%20asesorarme?" class="btn btn-accent">Solicitar Cita</a>
+        </div>
+    </div>
+</section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="../sobre_mi.jpeg" alt="Paola Dimaya Diseñadora">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Sobre Mí</h2>
+                <p>Paola Dimaya es sinónimo de excelencia en el mundo de la alta costura. Con una trayectoria destacada en la creación de piezas únicas, cada diseño refleja pasión, elegancia y atención al detalle.</p>
+                <p>Especializada en moda nupcial y trajes de ceremonia, Paola Dimaya entiende que cada cliente es único, por lo que ofrece creaciones personalizadas que resaltan la belleza individual y hacen de cada ocasión especial un momento inolvidable.</p>
+                <p>Con su estudio de diseño en Bogotá, ha vestido a cientos de novias y novios, creando prendas que trascienden las tendencias pasajeras y se convierten en piezas atemporales de elegancia.</p>
+                <a href="#contact" class="btn">Contáctame</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- Modificación en la sección Collections para hacer títulos y descripciones clickeables -->
+<section id="collections" class="collections">
+    <div class="container">
+        <div class="collections-header">
+            <h2 class="section-title">Colecciones</h2>
+        </div>
+        <div class="collections-grid">
+            <!-- Vestidos de Novia -->
+            <div class="collection-item">
+                <img src="/colecciones/vestidosnovia/4.jpeg" alt="Vestidos de Novia">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="vestidosnovia">
+                        <h3>Vestidos de Novia</h3>
+                        <p>Diseños exclusivos que resaltan la belleza única de cada novia. Elegancia atemporal para el día más especial.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="vestidosnovia">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Trajes de Ceremonia -->
+            <div class="collection-item">
+                <img src="/colecciones/trajesceremonia/17.jpeg" alt="Trajes de Ceremonia">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajesceremonia">
+                        <h3>Trajes de Ceremonia</h3>
+                        <p>Trajes impecables para el novio moderno. Cortes refinados y tejidos de la más alta calidad.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajesceremonia">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Trajes de Novios -->
+            <div class="collection-item">
+                <img src="/colecciones/trajesnovios/9.jpeg" alt="Trajes de Novios">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajesnovios">
+                        <h3>Trajes de Novios</h3>
+                        <p>Estilos modernos y clásicos para el gran día. Calidad y confort en cada detalle.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajesnovios">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Vestidos de Quinceañeras -->
+            <div class="collection-item">
+                <img src="/colecciones/vestidosquinceanos/1.jpeg" alt="Vestidos de Quinceañeras">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="vestidosquinceanos">
+                        <h3>Vestidos de Quinceañeras</h3>
+                        <p>Diseños mágicos para tu fiesta de quince. Princesas modernas con estilo único.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="vestidosquinceanos">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Traje Casual Elegante -->
+            <div class="collection-item">
+                <img src="/colecciones/trajecasualelegante/6.jpeg" alt="Traje Casual Elegante">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajecasualelegante">
+                        <h3>Traje Casual Elegante</h3>
+                        <p>Equilibrio perfecto entre formalidad y comodidad. Ideal para eventos semiformales.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajecasualelegante">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Traje Casual Elegante para Mujeres -->
+            <div class="collection-item">
+                <img src="/colecciones/trajecasualelegantemujeres/7.jpeg" alt="Traje Casual Elegante para Mujeres">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajecasualelegantemujeres">
+                        <h3>Traje Casual Elegante para Mujeres</h3>
+                        <p>Conjuntos sofisticados para la mujer moderna. Elegancia sin sacrificar comodidad.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="trajecasualelegantemujeres">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Accesorios Nupciales -->
+            <div class="collection-item">
+                <img src="/colecciones/acceoriosnupcial/6.jpeg" alt="Accesorios Nupciales">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="acceoriosnupcial">
+                        <h3>Accesorios Nupciales</h3>
+                        <p>Complementos perfectos para tu gran día. Detalles que marcan la diferencia.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="acceoriosnupcial">Ver Colección</a>
+                </div>
+            </div>
+
+            <!-- Moda Juniors -->
+            <div class="collection-item">
+                <img src="/colecciones/modajuniors/6.jpeg" alt="Moda Juniors">
+                <div class="collection-info">
+                    <a href="javascript:void(0)" class="view-collection" data-collection="modajuniors">
+                        <h3>Moda Juniors</h3>
+                        <p>Estilos juveniles y frescos para los más jóvenes. Tendencia y comodidad combinadas.</p>
+                    </a>
+                    <a href="javascript:void(0)" class="view-collection" data-collection="modajuniors">Ver Colección</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-header">
+                <h2 class="section-title">Servicios</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Diseño Personalizado</h3>
+                    <p>Creaciones únicas diseñadas específicamente para ti. Desde los bocetos iniciales hasta la prenda final, cada detalle refleja tu personalidad y estilo.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Confección a Medida</h3>
+                    <p>Prendas elaboradas con las medidas exactas de cada cliente, garantizando un ajuste perfecto y la máxima comodidad para ocasiones especiales.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Exclusividad</h3>
+                    <p>Materiales de la más alta calidad y técnicas artesanales que aseguran prendas únicas y exclusivas que no encontrarás en ningún otro lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <h2 class="section-title">Testimonios</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-quote">"Mi vestido de novia fue simplemente perfecto. Paola supo captar exactamente lo que quería y el resultado superó todas mis expectativas. Cada detalle fue cuidadosamente elaborado y me sentí hermosa en mi día especial."</p>
+                    <p class="testimonial-author">Mariana Gómez</p>
+                    <p class="testimonial-role">Novia - Diciembre 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2 class="section-title">Contacto</h2>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Horario</h4>
+                        <p>Lunes - Sabado: 10 A.M. - 7 P.M.</p>
+                        <p>Domingos y Festivos: Tienda Cerrada</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Ubicación</h4>
+                        <p>Carrera #119-59 - Segundo piso  local 211, Bogotá, Colombia</p>
+                    </div>
+                </div>
+                                <div class="info-item">
+                    <div class="info-icon">
+    <i class="fab fa-whatsapp-square"></i>
+</div>
+                    <div class="info-content">
+                        <h4>WhatsApp</h4>
+                        <p>+57 301 6256476</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Teléfono</h4>
+                        <p>+57 301 6256476</p>
+                        <p>+57 318 2004949</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Email</h4>
+                        <p>Paoladimaya@hotmail.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/paola_dimaya/" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+<div class="contact-form">
+    <form id="whatsappForm">
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+            <label for="service">Servicio de Interés</label>
+<select id="service" name="service" required>
+    <option value="">Selecciona un servicio</option>
+    <option value="accesoriosnupciales">Accesorios Nupciales</option>
+    <option value="modajuniors">Moda Junior</option>
+    <option value="trajecasualelegante">Traje Casual Elegante (Hombres)</option>
+    <option value="trajecasualelegantemujeres">Traje Casual Elegante (Mujeres)</option>
+    <option value="trajesceremonia">Trajes de Ceremonia</option>
+    <option value="trajesnovios">Trajes de Novios</option>
+    <option value="vestidosnovia">Vestidos de Novia</option>
+    <option value="vestidosquinceanos">Vestidos para Quinceañeras</option>
+</select>
+        </div>
+        <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="button" onclick="sendToWhatsApp()" class="btn-submit">Enviar Mensaje</button>
+    </form>
+</div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">PaolaDimaya</div>
+                <p>Creaciones exquisitas para momentos inolvidables. Alta costura con dedicación, pasión y atención a cada detalle.</p>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-heading">Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#collections">Colecciones</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-heading">Colecciones</h3>
+                <ul>
+                    <li><a href="#">Vestidos de Novia</a></li>
+                    <li><a href="#">Trajes de Ceremonia</a></li>
+                    <li><a href="#">Vestidos de Gala</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PaolaDimaya - Alta Costura. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
+<!-- Carrusel Modal (agregar al final del body pero antes del script) -->
+<div id="carousel-modal" class="carousel-modal">
+    <div class="carousel-container">
+        <span class="carousel-close">&times;</span>
+        <h3 id="carousel-title">Nombre de la Colección</h3>
+        
+        <div class="carousel-wrapper">
+            <div class="carousel-track">
+                <!-- Las imágenes se cargarán aquí dinámicamente -->
+            </div>
+            
+            <button class="carousel-button prev-button">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-button next-button">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="carousel-indicators">
+            <!-- Los indicadores se cargarán aquí dinámicamente -->
+        </div>
+    </div>
+</div>
+
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Navigation
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMobile = document.querySelector('.nav-mobile');
+        const navOverlay = document.querySelector('.nav-overlay');
+        const navClose = document.querySelector('.nav-close');
+        
+        navToggle.addEventListener('click', () => {
+            navMobile.classList.add('active');
+            navOverlay.classList.add('active');
+        });
+        
+        navClose.addEventListener('click', () => {
+            navMobile.classList.remove('active');
+            navOverlay.classList.remove('active');
+        });
+        
+        navOverlay.addEventListener('click', () => {
+            navMobile.classList.remove('active');
+            navOverlay.classList.remove('active');
+        });
+        
+        // Back to Top Button
+        const backToTopButton = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('active');
+            } else {
+                backToTopButton.classList.remove('active');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Scroll to sections
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                navMobile.classList.remove('active');
+                navOverlay.classList.remove('active');
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Header scroll effect
+        const header = document.querySelector('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 50) {
+                header.style.padding = '10px 0';
+                header.style.backgroundColor = 'rgba(10, 10, 10, 0.95)';
+            } else {
+                header.style.padding = '';
+                header.style.backgroundColor = 'rgba(10, 10, 10, 0.9)';
+            }
+        });
+        
+        // Simple Testimonial Slider (can be enhanced with a carousel library)
+        // This is a placeholder for future implementation of a more robust slider
+        
+        // Add form submission handling
+        const contactForm = document.querySelector('.contact-form form');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Form validation and submission logic would go here
+            alert('¡Gracias por contactarnos! Te responderemos a la brevedad.');
+            this.reset();
+        });
+        
+        // Add newsletter subscription handling
+        const subscribeForm = document.querySelector('.subscribe-form');
+        
+        subscribeForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Subscription logic would go here
+            alert('¡Gracias por suscribirte a nuestro newsletter!');
+            this.reset();
+        });
+    </script>
+    <script>
+function sendToWhatsApp() {
+    // Obtener los valores del formulario
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const service = document.getElementById('service').value;
+    const message = document.getElementById('message').value;
+    
+    // Número de WhatsApp (elimina cualquier carácter que no sea número)
+    const whatsappNumber = '+573016256476'.replace(/\D/g, '');
+    
+    // Crear el mensaje estructurado
+    const whatsappMessage = `Hola Paola, me llamo ${name} y estoy interesado/a en:\n\n` +
+                           `*Servicio:* ${service || 'No especificado'}\n` +
+                           `*Mensaje:* ${message}\n\n` +
+                           `*Mis datos de contacto:*\n` +
+                           `- Teléfono: ${phone || 'No proporcionado'}`;
+    
+    // Codificar el mensaje para URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+    
+    // Construir el enlace de WhatsApp
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
+    // Abrir en nueva pestaña
+    window.open(whatsappUrl, '_blank');
+    
+    // Opcional: Resetear el formulario después de enviar
+    document.getElementById('whatsappForm').reset();
+}
+</script>
+    <!-- Script para el Carrusel (agregar al final del body) -->
+<script>
+// Configuración de colecciones
+const collections = {
+    'vestidosnovia': {
+        title: 'Vestidos de Novia',
+        folder: '../colecciones/vestidosnovia/',
+        count: 10 // El número aproximado de imágenes o puedes dejarlo dinámico
+    },
+    'trajesceremonia': {
+        title: 'Trajes de Ceremonia',
+        folder: '../colecciones/trajesceremonia/',
+        count: 10
+    },
+    'vestidosgala': {
+        title: 'Vestidos de Gala',
+        folder: '../colecciones/vestidosgala/',
+        count: 10
+    },
+    'trajesnovios': {
+        title: 'Trajes de Novios',
+        folder: '../colecciones/trajesnovios/',
+        count: 10
+    },
+    'vestidosquinceanos': {
+        title: 'Vestidos de Quinceañeras',
+        folder: '../colecciones/vestidosquinceanos/',
+        count: 10
+    },
+    'trajecasualelegante': {
+        title: 'Traje Casual Elegante',
+        folder: '../colecciones/trajecasualelegante/',
+        count: 10
+    },
+    'trajecasualelegantemujeres': {
+        title: 'Traje Casual Elegante para Mujeres',
+        folder: '../colecciones/trajecasualelegantemujeres/',
+        count: 10
+    },
+    'acceoriosnupcial': {
+        title: 'Accesorios Nupciales',
+        folder: '../colecciones/acceoriosnupcial/',
+        count: 10
+    },
+    'modajuniors': {
+        title: 'Moda Juniors',
+        folder: '../colecciones/modajuniors/',
+        count: 10
+    }
+};
+
+// Elements
+const modal = document.getElementById('carousel-modal');
+const modalTitle = document.getElementById('carousel-title');
+const carouselTrack = document.querySelector('.carousel-track');
+const carouselIndicators = document.querySelector('.carousel-indicators');
+const prevButton = document.querySelector('.prev-button');
+const nextButton = document.querySelector('.next-button');
+const closeButton = document.querySelector('.carousel-close');
+
+// Variables
+let currentSlide = 0;
+let slides = [];
+let indicators = [];
+let currentCollection = '';
+let touchStartX = 0;
+let touchEndX = 0;
+
+// Open carousel when clicking on "Ver Colección"
+document.querySelectorAll('.view-collection').forEach(button => {
+    button.addEventListener('click', function() {
+        const collectionId = this.getAttribute('data-collection');
+        openCarousel(collectionId);
+    });
+});
+
+// Close carousel when clicking on close button or outside the carousel
+closeButton.addEventListener('click', closeCarousel);
+modal.addEventListener('click', function(e) {
+    if (e.target === modal) {
+        closeCarousel();
+    }
+});
+
+// Previous and next buttons
+prevButton.addEventListener('click', () => {
+    goToSlide(currentSlide - 1);
+});
+
+nextButton.addEventListener('click', () => {
+    goToSlide(currentSlide + 1);
+});
+
+// Touch events for mobile swiping
+carouselTrack.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+carouselTrack.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+});
+
+// Handle keyboard events
+document.addEventListener('keydown', (e) => {
+    if (!modal.classList.contains('active')) return;
+    
+    if (e.key === 'Escape') {
+        closeCarousel();
+    } else if (e.key === 'ArrowLeft') {
+        goToSlide(currentSlide - 1);
+    } else if (e.key === 'ArrowRight') {
+        goToSlide(currentSlide + 1);
+    }
+});
+
+// Function to open carousel
+function openCarousel(collectionId) {
+    if (!collections[collectionId]) return;
+    
+    currentCollection = collectionId;
+    const collection = collections[collectionId];
+    
+    // Set title
+    modalTitle.textContent = collection.title;
+    
+    // Clear previous slides and indicators
+    carouselTrack.innerHTML = '';
+    carouselIndicators.innerHTML = '';
+    slides = [];
+    indicators = [];
+    
+    // Obtén el número de imágenes para esta colección
+    const imageCount = collection.count;
+    
+    // Create slides and indicators
+    for (let i = 1; i <= imageCount; i++) {
+        // Create slide
+        const slide = document.createElement('div');
+        slide.className = 'carousel-slide';
+        
+        // Usar la ruta real a la imagen
+        const img = document.createElement('img');
+        img.src = `${collection.folder}${i}.jpeg`; // Ruta correcta a tus imágenes .jpeg
+        img.alt = `${collection.title} - Imagen ${i}`;
+        
+        // Manejo de errores para imágenes que no cargan
+        img.onerror = function() {
+            this.onerror = null;
+            this.src = `/api/placeholder/450/600?text=${collection.title} ${i}`; // Fallback a placeholder
+        };
+        
+        slide.appendChild(img);
+        carouselTrack.appendChild(slide);
+        slides.push(slide);
+        
+        // Create indicator
+        const indicator = document.createElement('div');
+        indicator.className = 'carousel-indicator';
+        indicator.addEventListener('click', () => {
+            goToSlide(i - 1);
+        });
+        
+        carouselIndicators.appendChild(indicator);
+        indicators.push(indicator);
+    }
+    
+    // Show modal with animation
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevent scrolling
+    
+    // Set initial slide
+    currentSlide = 0;
+    goToSlide(0);
+}
+
+// Function to close carousel
+function closeCarousel() {
+    modal.classList.remove('active');
+    document.body.style.overflow = ''; // Enable scrolling
+    
+    // Clean up
+    setTimeout(() => {
+        if (!modal.classList.contains('active')) {
+            carouselTrack.innerHTML = '';
+            carouselIndicators.innerHTML = '';
+            slides = [];
+            indicators = [];
+        }
+    }, 300);
+}
+
+// Function to go to a specific slide
+function goToSlide(index) {
+    if (slides.length === 0) return;
+    
+    // Ensure the index is within bounds (loop around)
+    if (index < 0) {
+        index = slides.length - 1;
+    } else if (index >= slides.length) {
+        index = 0;
+    }
+    
+    currentSlide = index;
+    
+    // Update slides
+    slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === currentSlide) {
+            slide.classList.add('active');
+        }
+    });
+    
+    // Update indicators
+    indicators.forEach((indicator, i) => {
+        indicator.classList.remove('active');
+        if (i === currentSlide) {
+            indicator.classList.add('active');
+        }
+    });
+    
+    // Calculate the position to center the current slide
+    // For 3D effect, we need to adjust the transform
+    const translateX = -currentSlide * 33.333 + (100 - 33.333) / 2;
+    
+    // Adjust for responsive layouts
+    let slideWidth = 33.333;
+    if (window.innerWidth <= 992 && window.innerWidth > 768) {
+        slideWidth = 50;
+    } else if (window.innerWidth <= 768) {
+        slideWidth = 100;
+    }
+    
+    const adjustedTranslateX = -currentSlide * slideWidth + (100 - slideWidth) / 2;
+    
+    // Apply the transform
+    carouselTrack.style.transform = `translateX(${adjustedTranslateX}%)`;
+}
+
+// Handle swipe gestures
+function handleSwipe() {
+    const swipeDistance = touchEndX - touchStartX;
+    const minSwipeDistance = 50;
+    
+    if (swipeDistance > minSwipeDistance) {
+        // Swiped right, go to previous slide
+        goToSlide(currentSlide - 1);
+    } else if (swipeDistance < -minSwipeDistance) {
+        // Swiped left, go to next slide
+        goToSlide(currentSlide + 1);
+    }
+}
+
+// Handle window resize
+window.addEventListener('resize', () => {
+    if (slides.length > 0) {
+        goToSlide(currentSlide); // Recalculate positions
+    }
+});
+</script>
+</body>
+</html>
