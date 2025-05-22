@@ -8,7 +8,7 @@
     <meta name="keywords" content="vestido de novias, alta costura, trajes ceremonia, vestidos de gala, trajes novios, vestido de novia elegante, alta costura bogota, diseñadora de moda nupcial">
     
     <!-- Favicon placeholder -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" href="../logo.png">
     
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
@@ -42,7 +42,9 @@
     <!-- Header -->
     <header>
         <div class="header-container">
-            <div class="logo">PaolaDimaya</div>
+            <div class="logo">
+                <img src="../logo3.png" alt="PaolaDimaya">
+            </div>
             <nav class="nav-desktop">
                 <ul>
                     <li><a href="#home">Inicio</a></li>
@@ -77,7 +79,7 @@
         <source src="../wallpaper.mp4" type="video/mp4">
     </video>
     <div class="hero-content">
-        <h1>Paola Dimaya</h1>
+        <h1><img src="../logo3.png" alt="Paola Dimaya"></h1>
         <p class="hero-tagline">Diseñadora de Alta Costura</p>
         <p>Creaciones exquisitas para momentos inolvidables. Vestidos de novia y trajes de ceremonia confeccionados a medida con la más alta calidad y dedicación.</p>
         <div class="hero-buttons">
@@ -95,10 +97,42 @@
             </div>
             <div class="about-content">
                 <h2 class="section-title">Sobre Mí</h2>
-                <p>Paola Dimaya es sinónimo de excelencia en el mundo de la alta costura. Con una trayectoria destacada en la creación de piezas únicas, cada diseño refleja pasión, elegancia y atención al detalle.</p>
-                <p>Especializada en moda nupcial y trajes de ceremonia, Paola Dimaya entiende que cada cliente es único, por lo que ofrece creaciones personalizadas que resaltan la belleza individual y hacen de cada ocasión especial un momento inolvidable.</p>
-                <p>Con su estudio de diseño en Bogotá, ha vestido a cientos de novias y novios, creando prendas que trascienden las tendencias pasajeras y se convierten en piezas atemporales de elegancia.</p>
+<p>Paola Dimaya es sinónimo de excelencia en el mundo de la alta costura. Cada vestido es una creación única, especial y exclusiva: una verdadera obra de arte que nace desde la elección de las texturas hasta el cuidado de los acabados.</p>
+<p>Confeccionadas por modistos expertos y bajo la dirección y asesoría de imagen de Paola Dimaya, cada prenda refleja una fusión perfecta entre pasión, elegancia y atención al detalle.</p>
+<p>Especializada en moda nupcial y trajes de ceremonia, entiende que cada cliente es irrepetible, por eso ofrece diseños personalizados que resaltan la belleza individual y hacen de cada ocasión un momento inolvidable.</p>
+<p>Desde su estudio en Bogotá, ha vestido a cientos de novias y novios, creando piezas que trascienden las tendencias y se convierten en símbolos atemporales de estilo y sofisticación.</p>
                 <a href="#contact" class="btn">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+        <section class="animated-photos-section">
+        <div class="photos-container">
+            <!-- Foto 1 -->
+            <div class="photo-card">
+                <img src="../foto4.jpeg" alt="Paola Dimaya 1">
+            </div>
+            
+            <!-- Foto 2 -->
+            <div class="photo-card">
+                <img src="../foto1.jpeg" alt="Paola Dimaya 2">
+            </div>
+            
+            <!-- Foto 3 -->
+            <div class="photo-card">
+                <img src="../foto3.jpeg" alt="Paola Dimaya 3">
+            </div>
+            
+            <!-- Foto 4 -->
+            <div class="photo-card">
+                <img src="../foto2.jpeg" alt="Paola Dimaya 4">
+            </div>
+            
+            <!-- Logo del nombre -->
+            <div class="name-reveal">
+                <h2 class="name-text">
+                    <img src="../logo2.png" alt="Paola Dimaya">
+                </h2>
             </div>
         </div>
     </section>
@@ -216,23 +250,14 @@
             </div>
             <div class="services-grid">
                 <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-paint-brush"></i>
-                    </div>
                     <h3>Diseño Personalizado</h3>
                     <p>Creaciones únicas diseñadas específicamente para ti. Desde los bocetos iniciales hasta la prenda final, cada detalle refleja tu personalidad y estilo.</p>
                 </div>
                 <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-cut"></i>
-                    </div>
                     <h3>Confección a Medida</h3>
                     <p>Prendas elaboradas con las medidas exactas de cada cliente, garantizando un ajuste perfecto y la máxima comodidad para ocasiones especiales.</p>
                 </div>
                 <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-gem"></i>
-                    </div>
                     <h3>Exclusividad</h3>
                     <p>Materiales de la más alta calidad y técnicas artesanales que aseguran prendas únicas y exclusivas que no encontrarás en ningún otro lugar.</p>
                 </div>
@@ -503,18 +528,19 @@
         // Add newsletter subscription handling
         const subscribeForm = document.querySelector('.subscribe-form');
         
-        subscribeForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Subscription logic would go here
-            alert('¡Gracias por suscribirte a nuestro newsletter!');
-            this.reset();
-        });
+        if (subscribeForm) {
+            subscribeForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Subscription logic would go here
+                alert('¡Gracias por suscribirte a nuestro newsletter!');
+                this.reset();
+            });
+        }
     </script>
     <script>
 function sendToWhatsApp() {
     // Obtener los valores del formulario
     const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const service = document.getElementById('service').value;
     const message = document.getElementById('message').value;
@@ -802,5 +828,35 @@ window.addEventListener('resize', () => {
     }
 });
 </script>
+<script>
+        // JavaScript para activar la animación cuando la sección sea visible
+        document.addEventListener('DOMContentLoaded', function() {
+            const photosSection = document.querySelector('.animated-photos-section');
+            const photosContainer = document.querySelector('.photos-container');
+            const nameReveal = document.querySelector('.name-reveal');
+            
+            // Intersection Observer para detectar cuando la sección es visible
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Activar animación de las fotos
+                        photosContainer.classList.add('animate');
+                        
+                        // Mostrar el nombre después de que pasen todas las fotos
+                        setTimeout(() => {
+                            nameReveal.classList.add('show');
+                        }, 2000); // 2 segundos después de que empiecen las fotos
+                        
+                        // Desconectar el observer después de la primera activación
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.3 // Activar cuando el 30% de la sección sea visible
+            });
+            
+            observer.observe(photosSection);
+        });
+    </script>
 </body>
 </html>
