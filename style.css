@@ -205,8 +205,8 @@ header {
 }
 
 .btn-accent {
-    background-color: var(--accent-purple);
-    border-color: var(--accent-purple);
+    background-color: #efb810;
+    border-color: #efb810;
     margin-left: 15px;
 }
 
@@ -238,6 +238,7 @@ header {
     width: 100%;
     height: auto;
     display: block;
+    filter: sepia(0.2) saturate(0.5) brightness(1.1) contrast(1.2) hue-rotate(180deg);
 }
 
 .about-content {
@@ -406,6 +407,21 @@ header {
     background-color: white;
 }
 
+.view-collection-text::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--primary-white);
+    transition: width 0.3s ease;
+}
+
+.collection-item:hover .view-collection-text::after {
+    width: 100%;
+}
+
 /* Sección de fotos animadas */
 .animated-photos-section {
     padding: 5rem 0;
@@ -431,7 +447,6 @@ header {
     position: absolute;
     width: 200px;
     height: 280px;
-    border-radius: 15px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     transform: translateX(-100vw) rotate(-10deg);
