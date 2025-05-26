@@ -204,16 +204,18 @@ header {
     color: var(--primary-black);
 }
 
+
 .btn-accent {
-    background-color: #efb810;
-    border-color: #efb810;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
     margin-left: 15px;
 }
 
 .btn-accent:hover {
     background-color: transparent;
-    color: var(--accent-purple-light);
-    border-color: var(--accent-purple-light);
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 /* About Section */
@@ -238,7 +240,6 @@ header {
     width: 100%;
     height: auto;
     display: block;
-    filter: sepia(0.2) saturate(0.5) brightness(1.1) contrast(1.2) hue-rotate(180deg);
 }
 
 .about-content {
