@@ -1,30 +1,72 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaolaDimaya | Alta Costura | Diseñadora de Vestidos de Novia y Trajes de Ceremonia</title>
-    <meta name="description" content="Diseñadora de alta costura especializada en vestidos de novia elegantes, trajes de ceremonia y vestidos de gala exclusivos. Confección a medida, venta y renta en Bogotá.">
-    <meta name="keywords" content="vestido de novias, alta costura, trajes ceremonia, vestidos de gala, trajes novios, vestido de novia elegante, alta costura bogota, diseñadora de moda nupcial">
+    <!-- TITLE TAG OPTIMIZADO PARA SEO LOCAL -->
+    <title>Vestidos de Novia Bogotá | Paola Dimaya | Alta Costura y Diseño Exclusivo</title>
+    <meta name="description" content="Diseñadora de vestidos de novia en Bogotá. Alta costura, trajes de ceremonia, alquiler de vestidos y boutique especializada. Confección a medida y diseños exclusivos en el centro de Bogotá.">
+    <meta name="keywords" content="vestidos de novia Bogotá, diseñadora vestidos novia, alta costura Bogotá, alquiler vestidos novia, boutique vestidos, trajes ceremonia Bogotá">
     
-    <!-- Favicon placeholder -->
-<link rel="icon" type="image/png" href="../logo.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../logo.png">
     
-    <!-- Schema.org markup for Google -->
+    <!-- SCHEMA MARKUP OPTIMIZADO PARA NEGOCIO LOCAL -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "FashionDesigner",
-      "name": "PaolaDimaya",
-      "description": "Diseñadora de alta costura especializada en vestidos de novia elegantes, trajes de ceremonia y vestidos de gala exclusivos.",
+      "@type": "LocalBusiness",
+      "name": "Paola Dimaya | Vestido de Novias Bogotá",
+      "description": "Diseñadora de alta costura especializada en vestidos de novia, trajes de ceremonia y vestidos exclusivos en Bogotá.",
       "url": "https://www.paoladimaya.com",
       "image": "https://www.paoladimaya.com/images/logo.png",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Carrera 15 #119-59 - Segundo piso local 211",
         "addressLocality": "Bogotá",
         "addressCountry": "CO"
       },
-      "priceRange": "$$$$"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "4.699718295275283",
+        "longitude": "-74.04597952502077"
+      },
+      "telephone": "+573016256476",
+      "email": "Paoladimaya@hotmail.com",
+      "openingHours": "Mo-Sa 10:00-19:00",
+      "priceRange": "$$$$",
+      "sameAs": [
+        "https://www.instagram.com/paola_dimaya/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Diseño y Confección",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vestidos de Novia",
+              "description": "Diseño y confección de vestidos de novia personalizados"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Alquiler de Vestidos",
+              "description": "Alquiler de vestidos de novia y trajes de ceremonia"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Alta Costura",
+              "description": "Diseños exclusivos de alta costura para ocasiones especiales"
+            }
+          }
+        ]
+      }
     }
     </script>
     
@@ -37,8 +79,192 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <link rel="stylesheet" href="../style.css">
+    
+    <!-- Estilos adicionales para breadcrumbs y secciones SEO -->
+    <style>
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background-color: var(--off-white);
+            padding: 15px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .breadcrumbs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .breadcrumbs ol {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .breadcrumbs li {
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumbs li:not(:last-child)::after {
+            content: '>';
+            margin: 0 10px;
+            color: var(--medium-gray);
+            font-size: 0.8rem;
+        }
+
+        .breadcrumbs a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumbs a:hover {
+            color: var(--accent-purple);
+        }
+
+        .breadcrumbs .current {
+            color: var(--accent-purple);
+            font-weight: 500;
+        }
+
+        /* Nueva sección de servicios principales después del hero */
+        .main-services {
+            padding: 60px 0;
+            background-color: var(--primary-white);
+        }
+
+        .main-services .container {
+            max-width: 1200px;
+        }
+
+        .main-services-intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .main-services-intro h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: var(--primary-black);
+        }
+
+        .main-services-intro p {
+            font-size: 1.1rem;
+            color: var(--dark-gray);
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .services-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .service-category-card {
+            background: var(--primary-white);
+            border: 1px solid var(--light-gray);
+            padding: 30px 25px;
+            text-align: left;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-purple);
+            transform: scaleY(0);
+            transition: transform 0.3s ease;
+        }
+
+        .service-category-card:hover::before {
+            transform: scaleY(1);
+        }
+
+        .service-category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-category-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            color: var(--primary-black);
+        }
+
+        .service-category-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            margin-bottom: 20px;
+        }
+
+        .service-category-link {
+            color: var(--accent-purple);
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-category-link:hover {
+            color: var(--accent-purple-light);
+            transform: translateX(5px);
+        }
+
+        .service-category-link i {
+            margin-left: 8px;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive para servicios principales */
+        @media (max-width: 768px) {
+            .main-services {
+                padding: 40px 0;
+            }
+            
+            .services-categories {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .service-category-card {
+                padding: 25px 20px;
+            }
+            
+            .main-services-intro h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Breadcrumbs -->
+    <nav class="breadcrumbs" aria-label="Navegación de migas de pan">
+        <div class="breadcrumbs-container">
+            <ol>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><span class="current">Vestidos de Novia Bogotá</span></li>
+            </ol>
+        </div>
+    </nav>
+
     <!-- Header -->
     <header>
         <div class="header-container">
@@ -49,8 +275,8 @@
                 <ul>
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#about">Sobre Mí</a></li>
-                    <li><a href="#collections">Colecciones</a></li>
                     <li><a href="#services">Servicios</a></li>
+                    <li><a href="#collections">Colecciones</a></li>
                     <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
@@ -66,8 +292,8 @@
         <ul>
             <li><a href="#home">Inicio</a></li>
             <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#collections">Colecciones</a></li>
             <li><a href="#services">Servicios</a></li>
+            <li><a href="#collections">Colecciones</a></li>
             <li><a href="#contact">Contacto</a></li>
         </ul>
     </div>
@@ -79,13 +305,83 @@
         <source src="../wallpaper.mp4" type="video/mp4">
     </video>
     <div class="hero-content">
-        <h1><img src="../logo3.png" alt="Paola Dimaya"></h1>
+        <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+            <img src="../logo3.png" alt="Paola Dimaya Logo" style="height: 80px; width: auto;">
+        </div>
         <p class="hero-tagline">By Fillipo Faccini</p>
         <p class="hero-tagline">Diseñadora de Alta Costura</p>
-        <p>Creaciones exquisitas para momentos inolvidables. Vestidos de novia y trajes de ceremonia confeccionados a medida con la más alta calidad y dedicación.</p>
+        <p>Especialistas en vestidos de novia en Bogotá. Creaciones exquisitas y diseños exclusivos de alta costura para momentos inolvidables. Confección a medida, alquiler de vestidos y trajes de ceremonia con la más alta calidad en el corazón de Bogotá.</p>
         <div class="hero-buttons">
             <a href="#collections" class="btn">Ver Colecciones</a>
             <a href="https://api.whatsapp.com/send?phone=573016256476&text=¡Hola%20Paola!%20Me%20gustaría%20trabajar%20contigo.%20¿Podrías%20asesorarme?" class="btn btn-accent">Solicitar Cita</a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Principal con H1 y categorías secundarias como H2 -->
+<section class="main-services">
+    <div class="container">
+        <!-- H1 PRINCIPAL CON CATEGORÍA PRIMARIA + CIUDAD -->
+        <h1 style="font-size: 2.5rem; text-align: center; margin-bottom: 40px; color: var(--primary-black);">Tienda de Vestidos en Bogotá</h1>
+        
+        <div class="intro-text" style="text-align: center; margin-bottom: 50px; max-width: 800px; margin-left: auto; margin-right: auto;">
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--dark-gray);">
+                Bienvenidos a Paola Dimaya, la boutique líder en vestidos de novia y alta costura en Bogotá. Con años de experiencia en el diseño y confección de prendas exclusivas, nos especializamos en crear momentos únicos e inolvidables para nuestras clientas. Nuestra tienda ubicada en el corazón de Bogotá ofrece una experiencia personalizada donde cada detalle cuenta.
+            </p>
+        </div>
+        
+        <!-- H2: TIENDA PARA NOVIAS -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Tienda para Novias</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                Nuestra tienda para novias en Bogotá es un santuario de elegancia donde los sueños toman forma. Especializados en vestidos de novia únicos y exclusivos, cada creación nace de la colaboración íntima entre la novia y nuestra diseñadora Paola Dimaya. Desde el primer bosquejo hasta el último ajuste, cada vestido cuenta una historia personal. Ofrecemos una amplia gama de estilos que van desde diseños clásicos atemporales hasta propuestas vanguardistas que reflejan la personalidad moderna de cada novia. Nuestro proceso de diseño personalizado incluye consultas individuales donde exploramos tus visiones, preferencias de estilo, tipo de ceremonia y presupuesto. Utilizamos únicamente materiales de la más alta calidad: sedas naturales importadas, encajes franceses, pedrería austriaca y bordados artesanales que dan vida a cada diseño. El atelier cuenta con las mejores modistas de Bogotá, expertas en técnicas tradicionales de alta costura que garantizan acabados impecables. Cada vestido pasa por múltiples pruebas de ajuste para asegurar que se adapte perfectamente a tu figura, realzando tu belleza natural. Además de la confección, ofrecemos servicios de asesoría integral que incluyen la selección de accesorios, zapatos y velos que complementen perfectamente tu look nupcial.
+                <a href="../tienda-novias-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Ver más sobre vestidos de novia →</a>
+            </p>
+        </div>
+
+        <!-- H2: BOUTIQUE DE ALTA COSTURA -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Boutique de Alta Costura</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                La boutique de alta costura Paola Dimaya representa la excelencia en el diseño de moda femenina en Bogotá. Aquí, la alta costura no es solo una técnica, sino una filosofía que honra la tradición artesanal francesa adaptada al gusto contemporáneo latinoamericano. Cada pieza es una obra de arte vestible, creada exclusivamente para una clienta específica. Nuestros diseños de alta costura van más allá del vestido de novia, abarcando vestidos de gala para eventos especiales, trajes de madrina, vestidos de cóctel y piezas únicas para ocasiones extraordinarias. El proceso de creación en alta costura requiere entre 100 y 300 horas de trabajo manual, dependiendo de la complejidad del diseño. Comenzamos con un toile (patrón de prueba) que se ajusta meticulosamente al cuerpo de la clienta, seguido de la selección de materiales exclusivos que pueden incluir sedas dupioni, organzas de seda, tules bordados a mano, y aplicaciones de cristales Swarovski. Nuestro equipo de artesanas especialistas en bordado, plisado, drapeado y aplicaciones de pedrería trabaja bajo la supervisión directa de Paola Dimaya para garantizar que cada detalle alcance la perfección. La boutique ofrece un ambiente íntimo y exclusivo donde las clientas pueden experimentar el lujo de tener prendas diseñadas únicamente para ellas, con la certeza de que nunca encontrarán otra igual.
+                <a href="boutique-alta-costura-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Explorar alta costura →</a>
+            </p>
+        </div>
+
+        <!-- H2: SERVICIO DE ALQUILER DE VESTIDOS DE NOVIA -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Servicio de Alquiler de Vestidos de Novia</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                Nuestro servicio de alquiler de vestidos de novia en Bogotá democratiza el acceso a la alta costura, permitiendo que más novias experimenten la elegancia de un diseño exclusivo de Paola Dimaya. La colección de alquiler incluye una cuidadosa selección de vestidos que han sido creados específicamente para este servicio, manteniendo la calidad y exclusividad que caracterizan nuestra marca. Cada vestido de alquiler pasa por un proceso riguroso de mantenimiento y limpieza especializada después de cada uso, garantizando que llegue a cada novia en condiciones perfectas. Ofrecemos tallas desde la XS hasta la XXL, con servicios de ajuste menor incluidos en el precio del alquiler. El proceso comienza con una cita de selección donde la novia puede probarse diferentes estilos y encontrar el vestido que mejor se adapte a su figura y visión de boda. Incluimos en el servicio: limpieza especializada pre y post evento, seguro contra daños menores, kit de emergencia para el día de la boda, y asesoría para la selección de accesorios complementarios. Nuestros precios de alquiler son transparentes y competitivos, oscilando entre el 15% y 25% del valor de compra del vestido, dependiendo del diseño y la temporada. También ofrecemos paquetes especiales que incluyen vestido, velo, zapatos y accesorios, proporcionando una solución integral para novias que buscan elegancia sin comprometer su presupuesto. El servicio de alquiler es ideal para ceremonias civiles, bodas íntimas, segundas nupcias, o para novias que prefieren invertir en otros aspectos de su boda.
+                <a href="alquiler-vestidos-novia-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Ver opciones de alquiler →</a>
+            </p>
+        </div>
+
+        <!-- H2: TIENDA DE VESTUARIO -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Tienda de Vestuario</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                La tienda de vestuario de Paola Dimaya en Bogotá ofrece una colección extensa de prendas elegantes para toda ocasión especial. Más allá de los vestidos de novia, nuestra especialidad incluye vestidos para madrinas, madres de novios, invitadas especiales, vestidos de gala para eventos corporativos, graduaciones, quinceañeros y celebraciones familiares. Cada categoría de vestuario mantiene el sello distintivo de calidad y elegancia que caracteriza nuestra marca. Para las madrinas, diseñamos vestidos que complementen armoniosamente el estilo de la novia sin competir con su protagonismo, utilizando paletas de colores coordinadas y estilos que favorezcan diferentes tipos de figura. Los vestidos para madres de novios combinan sofisticación y comodidad, con diseños que proyectan elegancia apropiada para su rol especial en la ceremonia. Para quinceañeras, creamos diseños que capturan la transición entre la niñez y la juventud, con vestidos que son tanto age-appropriate como fashion-forward. Nuestra colección de vestidos de gala atiende a mujeres profesionales que requieren prendas apropiadas para eventos corporativos de alto nivel, galas benéficas, premiaciones y cenas de estado. Ofrecemos también servicios de personal shopping para clientas que necesitan renovar completamente su guardarropa para una temporada social específica. Todos nuestros vestidos pueden ser personalizados en color, largo y algunos detalles de diseño, asegurando que cada clienta encuentre la prenda perfecta para su ocasión específica. El servicio incluye asesoría de imagen integral, coordinación de accesorios y recomendaciones de styling.
+                <a href="tienda-vestuario-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Explorar vestuario →</a>
+            </p>
+        </div>
+
+        <!-- H2: SERVICIO DE ALQUILER DE TRAJES DE ETIQUETA -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Servicio de Alquiler de Trajes de Etiqueta</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                Nuestro servicio de alquiler de trajes de etiqueta en Bogotá atiende a caballeros que requieren vestimenta formal de la más alta calidad para ocasiones especiales. La colección incluye smokings clásicos, fracs para ceremonias muy formales, chaqués para bodas de día, y esmóquines modernos con cortes contemporáneos. Cada traje en nuestra colección de alquiler ha sido seleccionado por su calidad superior en tejidos, confección y acabados, asegurando que cada caballero luzca impecable en su evento especial. Trabajamos con las mejores casas textiles europeas para garantizar que nuestros trajes mantengan su forma y elegancia uso tras uso. El servicio incluye una cita de medición y ajuste personalizada donde nuestros sastres expertos toman las medidas exactas de cada cliente para realizar los ajustes necesarios que garanticen un fit perfecto. Ofrecemos una amplia gama de tallas y estilos, desde cortes clásicos tradicionales hasta diseños slim fit más contemporáneos. El paquete completo de alquiler incluye: traje completo (saco, pantalón, chaleco cuando aplique), camisa formal, corbatín o corbata según el estilo, fajín, mancuernillas, prendedor, zapatos formales, calcetines, y pañuelo de bolsillo. Todos los accesorios están coordinados para crear un look cohesivo y elegante. Nuestro servicio de delivery y recogida permite que los clientes reciban y devuelvan sus trajes sin salir de casa. Ofrecemos precios especiales para grupos de novios, padrinos y familiares que requieran múltiples trajes para el mismo evento. También proporcionamos servicios de emergency fitting el día anterior al evento para cualquier ajuste de última hora que pueda ser necesario.
+                <a href="alquiler-trajes-etiqueta-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Ver trajes de etiqueta →</a>
+            </p>
+        </div>
+
+        <!-- H2: TIENDA DE TRAJES FORMALES -->
+        <div style="margin-bottom: 60px;">
+            <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--primary-black); border-bottom: 2px solid var(--accent-purple); padding-bottom: 10px;">Tienda de Trajes Formales</h2>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--dark-gray); text-align: justify;">
+                La tienda de trajes formales para novios de Paola Dimaya en Bogotá representa la culminación de la sastrería masculina moderna, combinando técnicas tradicionales con diseños contemporáneos. Nos especializamos en crear trajes únicos para novios que buscan destacar en su día especial con un look que refleje su personalidad y estilo. Nuestro enfoque va más allá de la simple confección; creamos experiencias sartoriales completas que incluyen consultoría de estilo, selección de tejidos, diseño personalizado y confección a medida. Cada traje comienza con una consulta individual donde exploramos las preferencias del novio, el estilo de la boda, la temporada, el venue y el dress code. Ofrecemos una amplia selección de tejidos premium que incluyen lanas súper 120s, 150s y 180s, mezclas de lana-seda, algodones nobles para climas cálidos, y linos premium para bodas en destinos tropicales. Los cortes disponibles van desde el clásico británico tradicional hasta el moderno slim fit y el contemporary fit que favorece a la mayoría de figuras masculinas. Nuestros sastres, entrenados en técnicas europeas tradicionales, se especializan en crear trajes que no solo se ven perfectos sino que también se sienten cómodos durante las largas jornadas que implica un día de boda. El proceso incluye múltiples pruebas: medición inicial, primera prueba con el patrón básico, segunda prueba con ajustes intermedios, y prueba final para los últimos detalles. Ofrecemos personalización completa en detalles como: tipo de solapa, número de botones, estilo de bolsillos, monogramas, forros personalizados, y botones especiales. También coordinamos la vestimenta de padrinos y familiares masculinos para crear un look cohesivo y elegante en toda la wedding party.
+                <a href="tienda-trajes-formales-bogota/index.html" style="color: var(--accent-purple); font-weight: 500; text-decoration: none; margin-left: 10px;">Explorar trajes formales →</a>
+            </p>
         </div>
     </div>
 </section>
@@ -94,58 +390,64 @@
     <section id="about" class="about">
         <div class="container about-container">
             <div class="about-image">
-                <img src="../sobre_mi.jpeg" alt="Paola Dimaya Diseñadora">
+                <img src="../sobre_mi.jpeg" alt="Paola Dimaya Diseñadora de Vestidos de Novia Bogotá">
             </div>
             <div class="about-content">
-                <h2 class="section-title">Sobre Mí</h2>
-<p>Cada vestido es una pieza única y exclusiva.
-Auténticas obras de arte que toman forma desde la elección de las texturas hasta el detalle impecable de sus acabados. Cada diseño es confeccionado por manos expertas, bajo la dirección estética y la asesoría de imagen de la diseñadora de modas Paola Dimaya.</p>
+                <div style="font-size: 2.5rem; margin-bottom: 20px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px;">
+                    Sobre Mí
+                    <div style="position: absolute; width: 60px; height: 1px; background-color: var(--accent-purple); bottom: 0; left: 0;"></div>
+                </div>
+                <p>Cada vestido es una pieza única y exclusiva. Auténticas obras de arte que toman forma desde la elección de las texturas hasta el detalle impecable de sus acabados. Cada diseño es confeccionado por manos expertas, bajo la dirección estética y la asesoría de imagen de la diseñadora de modas Paola Dimaya en el corazón de Bogotá.</p>
                 <a href="#contact" class="btn">Contáctame</a>
             </div>
         </div>
     </section>
 
-        <section class="animated-photos-section">
+    <!-- Sección de fotos animadas (mantenida igual) -->
+    <section class="animated-photos-section">
         <div class="photos-container">
             <!-- Foto 1 -->
             <div class="photo-card">
-                <img src="../foto4.jpeg" alt="Paola Dimaya 1">
+                <img src="../foto4.jpeg" alt="Paola Dimaya Vestidos de Novia Bogotá">
             </div>
             
             <!-- Foto 2 -->
             <div class="photo-card">
-                <img src="../foto1.jpeg" alt="Paola Dimaya 2">
+                <img src="../foto1.jpeg" alt="Diseñadora Alta Costura Bogotá">
             </div>
             
             <!-- Foto 3 -->
             <div class="photo-card">
-                <img src="../foto3.jpeg" alt="Paola Dimaya 3">
+                <img src="../foto3.jpeg" alt="Boutique Vestidos Novia Bogotá">
             </div>
             
             <!-- Foto 4 -->
             <div class="photo-card">
-                <img src="../foto2.jpeg" alt="Paola Dimaya 4">
+                <img src="../foto2.jpeg" alt="Atelier Paola Dimaya Bogotá">
             </div>
             
             <!-- Logo del nombre -->
             <div class="name-reveal">
                 <h2 class="name-text">
-                    <img src="../logo2.png" alt="Paola Dimaya">
+                    <img src="../logo2.png" alt="Paola Dimaya Logo">
                 </h2>
             </div>
         </div>
     </section>
     
-<!-- Modificación en la sección Collections para hacer todo el div clicleable -->
+<!-- Collections Section (mantenida igual pero con alt texts optimizados) -->
 <section id="collections" class="collections">
     <div class="container">
         <div class="collections-header">
-            <h2 class="section-title">Colecciones</h2>
+            <div style="font-size: 2.5rem; margin-bottom: 20px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px; display: inline-block;">
+                Colecciones
+                <div style="position: absolute; width: 60px; height: 1px; background-color: var(--accent-purple); bottom: 0; left: 50%; transform: translateX(-50%);"></div>
+            </div>
         </div>
         <div class="collections-grid">
             <!-- Vestidos de Novia -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="vestidosnovia">
-                <img src="../colecciones/vestidosnovia/4.jpeg" alt="Vestidos de Novia">
+                <img src="../colecciones/vestidosnovia/4.jpeg" alt="Vestidos de Novia Bogotá - Diseños Exclusivos">
                 <div class="collection-info">
                     <h3>Vestidos de Novia</h3>
                     <p>Diseños exclusivos que resaltan la belleza única de cada novia. Elegancia atemporal para el día más especial.</p>
@@ -153,9 +455,9 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                 </div>
             </a>
 
-                        <!-- Trajes de Novios -->
+            <!-- Trajes de Novios -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="trajesnovios">
-                <img src="../colecciones/trajesnovios/9.jpeg" alt="Trajes de Novios">
+                <img src="../colecciones/trajesnovios/9.jpeg" alt="Trajes de Novios Bogotá - Elegancia Masculina">
                 <div class="collection-info">
                     <h3>Trajes de Novios</h3>
                     <p>Estilos modernos y clásicos para el gran día. Calidad y confort en cada detalle.</p>
@@ -165,7 +467,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
 
             <!-- Trajes de Ceremonia -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="trajesceremonia">
-                <img src="../colecciones/trajesceremonia/18.jpeg" alt="Trajes de Ceremonia">
+                <img src="../colecciones/trajesceremonia/18.jpeg" alt="Trajes de Ceremonia Bogotá - Alta Costura">
                 <div class="collection-info">
                     <h3>Trajes de Ceremonia</h3>
                     <p>Trajes impecables para el novio moderno. Cortes refinados y tejidos de la más alta calidad.</p>
@@ -173,10 +475,9 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                 </div>
             </a>
 
-
             <!-- Vestidos de Quinceañeras -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="vestidosquinceanos">
-                <img src="../colecciones/vestidosquinceanos/1.jpeg" alt="Vestidos de Quinceañeras">
+                <img src="../colecciones/vestidosquinceanos/1.jpeg" alt="Vestidos de Quinceañeras Bogotá">
                 <div class="collection-info">
                     <h3>Vestidos de Quinceañeras</h3>
                     <p>Diseños mágicos para tu fiesta de quince. Princesas modernas con estilo único.</p>
@@ -186,7 +487,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
 
             <!-- Traje Casual Elegante -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="trajecasualelegante">
-                <img src="../colecciones/trajecasualelegante/8.jpeg" alt="Traje Casual Elegante">
+                <img src="../colecciones/trajecasualelegante/8.jpeg" alt="Esmoquin Bogotá - Trajes Elegantes">
                 <div class="collection-info">
                     <h3>Esmoquin</h3>
                     <p>Equilibrio perfecto entre formalidad y comodidad. Ideal para eventos semiformales.</p>
@@ -196,7 +497,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
 
             <!-- Traje Casual Elegante para Mujeres -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="trajecasualelegantemujeres">
-                <img src="../colecciones/trajecasualelegantemujeres/7.jpeg" alt="Traje Casual Elegante para Mujeres">
+                <img src="../colecciones/trajecasualelegantemujeres/7.jpeg" alt="Trajes Elegantes Mujeres Bogotá">
                 <div class="collection-info">
                     <h3>Traje Casual Elegante para Mujeres</h3>
                     <p>Conjuntos sofisticados para la mujer moderna. Elegancia sin sacrificar comodidad.</p>
@@ -206,7 +507,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
 
             <!-- Accesorios Nupciales -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="acceoriosnupcial">
-                <img src="../colecciones/acceoriosnupcial/6.jpeg" alt="Accesorios Nupciales">
+                <img src="../colecciones/acceoriosnupcial/6.jpeg" alt="Accesorios Nupciales Bogotá">
                 <div class="collection-info">
                     <h3>Accesorios Nupciales</h3>
                     <p>Complementos perfectos para tu gran día. Detalles que marcan la diferencia.</p>
@@ -216,7 +517,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
 
             <!-- Moda Juniors -->
             <a href="javascript:void(0)" class="collection-item view-collection" data-collection="modajuniors">
-                <img src="../colecciones/modajuniors/8.jpeg" alt="Moda Juniors">
+                <img src="../colecciones/modajuniors/8.jpeg" alt="Moda Juniors Bogotá">
                 <div class="collection-info">
                     <h3>Moda Juniors</h3>
                     <p>Estilos juveniles y frescos para los más jóvenes. Tendencia y comodidad combinadas.</p>
@@ -231,7 +532,10 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
     <section id="services" class="services">
         <div class="container">
             <div class="services-header">
-                <h2 class="section-title">Servicios</h2>
+                <div style="font-size: 2.5rem; margin-bottom: 20px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px; display: inline-block; color: var(--primary-black);">
+                    Servicios
+                    <div style="position: absolute; width: 60px; height: 1px; background-color: var(--accent-purple); bottom: 0; left: 50%; transform: translateX(-50%);"></div>
+                </div>
             </div>
             <div class="services-grid">
                 <div class="service-item">
@@ -254,7 +558,10 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="testimonials-header">
-                <h2 class="section-title">Testimonios</h2>
+                <div style="font-size: 2.5rem; margin-bottom: 20px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px; display: inline-block;">
+                    Testimonios
+                    <div style="position: absolute; width: 60px; height: 1px; background-color: var(--accent-purple); bottom: 0; left: 50%; transform: translateX(-50%);"></div>
+                </div>
             </div>
             <div class="testimonials-slider">
                 <div class="testimonial-item">
@@ -290,13 +597,13 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                     </div>
                     <div class="info-content">
                         <h4>Ubicación</h4>
-                        <p>Carrera 15 #119-59 - Segundo piso  local 211, Bogotá, Colombia</p>
+                        <p>Carrera 15 #119-59 - Segundo piso local 211, Bogotá, Colombia</p>
                     </div>
                 </div>
-                                <div class="info-item">
+                <div class="info-item">
                     <div class="info-icon">
-    <i class="fab fa-whatsapp-square"></i>
-</div>
+                        <i class="fab fa-whatsapp-square"></i>
+                    </div>
                     <div class="info-content">
                         <h4>WhatsApp</h4>
                         <p>+57 301 6256476</p>
@@ -327,47 +634,49 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                         <a href="https://www.instagram.com/paola_dimaya/" class="social-icon">
                             <i class="fab fa-instagram"></i>
                         </a>
-
                     </div>
                 </div>
             </div>
-<div class="contact-form">
-    <form id="whatsappForm">
-        <div class="form-group">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-            <label for="phone">Teléfono</label>
-            <input type="tel" id="phone" name="phone">
-        </div>
-        <div class="form-group">
-            <label for="service">Servicio de Interés</label>
-<select id="service" name="service" required>
-    <option value="">Selecciona un servicio</option>
-    <option value="accesoriosnupciales">Accesorios Nupciales</option>
-    <option value="modajuniors">Moda Junior</option>
-    <option value="trajecasualelegante">Traje Casual Elegante (Hombres)</option>
-    <option value="trajecasualelegantemujeres">Traje Casual Elegante (Mujeres)</option>
-    <option value="trajesceremonia">Trajes de Ceremonia</option>
-    <option value="trajesnovios">Trajes de Novios</option>
-    <option value="vestidosnovia">Vestidos de Novia</option>
-    <option value="vestidosquinceanos">Vestidos para Quinceañeras</option>
-</select>
-        </div>
-        <div class="form-group">
-            <label for="message">Mensaje</label>
-            <textarea id="message" name="message" required></textarea>
-        </div>
-        <button type="button" onclick="sendToWhatsApp()" class="btn-submit">Enviar Mensaje</button>
-    </form>
-</div>
+            <div class="contact-form">
+                <form id="whatsappForm">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Servicio de Interés</label>
+                        <select id="service" name="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="vestidosnovia">Vestidos de Novia</option>
+                            <option value="altacostura">Alta Costura</option>
+                            <option value="alquilervesitdos">Alquiler de Vestidos</option>
+                            <option value="trajesformales">Trajes Formales</option>
+                            <option value="alquilertrajes">Alquiler de Trajes</option>
+                            <option value="accesoriosnupciales">Accesorios Nupciales</option>
+                            <option value="modajuniors">Moda Junior</option>
+                            <option value="vestuario">Vestuario en General</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="button" onclick="sendToWhatsApp()" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
         </div>
     </section>
 
-        <!-- Map Section -->
+    <!-- Map Section -->
     <section class="map-section">
-        <h2 class="section-title">Ubicación</h2>
+        <div style="font-size: 2.5rem; margin-bottom: 20px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px; text-align: center;">
+            Ubicación en Bogotá
+            <div style="position: absolute; width: 60px; height: 1px; background-color: var(--accent-purple); bottom: 0; left: 50%; transform: translateX(-50%);"></div>
+        </div>
         <div class="container">
             <div class="map-container">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.403711975676!2d-74.04597952502077!3d4.699718295275283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab1956a9b71%3A0x1c7cefcfc63898e2!2sPaola%20Dimaya%20%7C%20Vestido%20de%20Novias%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1748280231656!5m2!1ses!2sco" 
@@ -376,7 +685,8 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                         style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Ubicación Paola Dimaya - Vestidos de Novia Bogotá">
                 </iframe>
             </div>
         </div>
@@ -387,10 +697,13 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
         <div class="container footer-container">
             <div class="footer-about">
                 <div class="footer-logo">PaolaDimaya</div>
-                <p>Creaciones exquisitas para momentos inolvidables. Alta costura con dedicación, pasión y atención a cada detalle.</p>
+                <p>Creaciones exquisitas para momentos inolvidables. Alta costura con dedicación, pasión y atención a cada detalle en el corazón de Bogotá.</p>
             </div>
             <div class="footer-links">
-                <h3 class="footer-heading">Enlaces Rápidos</h3>
+                <div style="font-size: 1.2rem; margin-bottom: 25px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px;">
+                    Enlaces Rápidos
+                    <div style="position: absolute; width: 40px; height: 1px; background-color: var(--accent-purple-light); bottom: 0; left: 0;"></div>
+                </div>
                 <ul>
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#about">Sobre Mí</a></li>
@@ -400,18 +713,20 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                 </ul>
             </div>
             <div class="footer-links">
-                <h3 class="footer-heading">Colecciones</h3>
+                <div style="font-size: 1.2rem; margin-bottom: 25px; position: relative; padding-bottom: 15px; font-family: var(--font-heading); font-weight: 400; letter-spacing: 1px;">
+                    Servicios
+                    <div style="position: absolute; width: 40px; height: 1px; background-color: var(--accent-purple-light); bottom: 0; left: 0;"></div>
+                </div>
                 <ul>
-                    <li><a href="#">Vestidos de Novia</a></li>
-                    <li><a href="#">Trajes de Ceremonia</a></li>
-                    <li><a href="#">Vestidos de Gala</a></li>
-                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="tienda-novias-bogota.html">Vestidos de Novia</a></li>
+                    <li><a href="boutique-alta-costura-bogota.html">Alta Costura</a></li>
+                    <li><a href="alquiler-vestidos-novia-bogota.html">Alquiler de Vestidos</a></li>
+                    <li><a href="tienda-trajes-formales-bogota.html">Trajes Formales</a></li>
                 </ul>
             </div>
-
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 PaolaDimaya - Alta Costura. Todos los derechos reservados.</p>
+            <p>&copy; 2025 PaolaDimaya - Vestidos de Novia Bogotá. Todos los derechos reservados.</p>
         </div>
     </footer>
     
@@ -420,7 +735,7 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
         <i class="fas fa-chevron-up"></i>
     </div>
     
-<!-- Carrusel Modal (agregar al final del body pero antes del script) -->
+<!-- Carrusel Modal -->
 <div id="carousel-modal" class="carousel-modal">
     <div class="carousel-container">
         <span class="carousel-close">&times;</span>
@@ -444,7 +759,6 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
         </div>
     </div>
 </div>
-
 
     <!-- JavaScript -->
     <script>
@@ -495,9 +809,12 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                 navMobile.classList.remove('active');
                 navOverlay.classList.remove('active');
                 
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
             });
         });
         
@@ -513,348 +830,288 @@ Auténticas obras de arte que toman forma desde la elección de las texturas has
                 header.style.backgroundColor = 'rgba(10, 10, 10, 0.9)';
             }
         });
-        
-        // Simple Testimonial Slider (can be enhanced with a carousel library)
-        // This is a placeholder for future implementation of a more robust slider
-        
-        // Add form submission handling
-        const contactForm = document.querySelector('.contact-form form');
-        
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Form validation and submission logic would go here
-            alert('¡Gracias por contactarnos! Te responderemos a la brevedad.');
-            this.reset();
-        });
-        
-        // Add newsletter subscription handling
-        const subscribeForm = document.querySelector('.subscribe-form');
-        
-        if (subscribeForm) {
-            subscribeForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                // Subscription logic would go here
-                alert('¡Gracias por suscribirte a nuestro newsletter!');
-                this.reset();
-            });
+
+        // WhatsApp Form
+        function sendToWhatsApp() {
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value;
+            
+            const whatsappNumber = '+573016256476'.replace(/\D/g, '');
+            
+            const whatsappMessage = `Hola Paola, me llamo ${name} y estoy interesado/a en:\n\n` +
+                                   `*Servicio:* ${service || 'No especificado'}\n` +
+                                   `*Mensaje:* ${message}\n\n` +
+                                   `*Mis datos de contacto:*\n` +
+                                   `- Teléfono: ${phone || 'No proporcionado'}`;
+            
+            const encodedMessage = encodeURIComponent(whatsappMessage);
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+            
+            window.open(whatsappUrl, '_blank');
+            document.getElementById('whatsappForm').reset();
         }
     </script>
+
+    <!-- Script para el Carrusel -->
     <script>
-function sendToWhatsApp() {
-    // Obtener los valores del formulario
-    const name = document.getElementById('name').value;
-    const phone = document.getElementById('phone').value;
-    const service = document.getElementById('service').value;
-    const message = document.getElementById('message').value;
-    
-    // Número de WhatsApp (elimina cualquier carácter que no sea número)
-    const whatsappNumber = '+573016256476'.replace(/\D/g, '');
-    
-    // Crear el mensaje estructurado
-    const whatsappMessage = `Hola Paola, me llamo ${name} y estoy interesado/a en:\n\n` +
-                           `*Servicio:* ${service || 'No especificado'}\n` +
-                           `*Mensaje:* ${message}\n\n` +
-                           `*Mis datos de contacto:*\n` +
-                           `- Teléfono: ${phone || 'No proporcionado'}`;
-    
-    // Codificar el mensaje para URL
-    const encodedMessage = encodeURIComponent(whatsappMessage);
-    
-    // Construir el enlace de WhatsApp
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-    
-    // Abrir en nueva pestaña
-    window.open(whatsappUrl, '_blank');
-    
-    // Opcional: Resetear el formulario después de enviar
-    document.getElementById('whatsappForm').reset();
-}
-</script>
-    <!-- Script para el Carrusel (agregar al final del body) -->
-<script>
-// Configuración de colecciones
-const collections = {
-    'vestidosnovia': {
-        title: 'Vestidos de Novia',
-        folder: '../colecciones/vestidosnovia/',
-        count: 10 // El número aproximado de imágenes o puedes dejarlo dinámico
-    },
-    'trajesceremonia': {
-        title: 'Trajes de Ceremonia',
-        folder: '../colecciones/trajesceremonia/',
-        count: 10
-    },
-    'vestidosgala': {
-        title: 'Vestidos de Gala',
-        folder: '../colecciones/vestidosgala/',
-        count: 10
-    },
-    'trajesnovios': {
-        title: 'Trajes de Novios',
-        folder: '../colecciones/trajesnovios/',
-        count: 10
-    },
-    'vestidosquinceanos': {
-        title: 'Vestidos de Quinceañeras',
-        folder: '../colecciones/vestidosquinceanos/',
-        count: 10
-    },
-    'trajecasualelegante': {
-        title: 'Traje Casual Elegante',
-        folder: '../colecciones/trajecasualelegante/',
-        count: 7
-    },
-    'trajecasualelegantemujeres': {
-        title: 'Traje Casual Elegante para Mujeres',
-        folder: '../colecciones/trajecasualelegantemujeres/',
-        count: 10
-    },
-    'acceoriosnupcial': {
-        title: 'Accesorios Nupciales',
-        folder: '../colecciones/acceoriosnupcial/',
-        count: 10
-    },
-    'modajuniors': {
-        title: 'Moda Juniors',
-        folder: '../colecciones/modajuniors/',
-        count: 9
-    }
-};
-
-// Elements
-const modal = document.getElementById('carousel-modal');
-const modalTitle = document.getElementById('carousel-title');
-const carouselTrack = document.querySelector('.carousel-track');
-const carouselIndicators = document.querySelector('.carousel-indicators');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-const closeButton = document.querySelector('.carousel-close');
-
-// Variables
-let currentSlide = 0;
-let slides = [];
-let indicators = [];
-let currentCollection = '';
-let touchStartX = 0;
-let touchEndX = 0;
-
-// Open carousel when clicking on "Ver Colección"
-document.querySelectorAll('.view-collection').forEach(button => {
-    button.addEventListener('click', function() {
-        const collectionId = this.getAttribute('data-collection');
-        openCarousel(collectionId);
-    });
-});
-
-// Close carousel when clicking on close button or outside the carousel
-closeButton.addEventListener('click', closeCarousel);
-modal.addEventListener('click', function(e) {
-    if (e.target === modal) {
-        closeCarousel();
-    }
-});
-
-// Previous and next buttons
-prevButton.addEventListener('click', () => {
-    goToSlide(currentSlide - 1);
-});
-
-nextButton.addEventListener('click', () => {
-    goToSlide(currentSlide + 1);
-});
-
-// Touch events for mobile swiping
-carouselTrack.addEventListener('touchstart', (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-});
-
-carouselTrack.addEventListener('touchend', (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleSwipe();
-});
-
-// Handle keyboard events
-document.addEventListener('keydown', (e) => {
-    if (!modal.classList.contains('active')) return;
-    
-    if (e.key === 'Escape') {
-        closeCarousel();
-    } else if (e.key === 'ArrowLeft') {
-        goToSlide(currentSlide - 1);
-    } else if (e.key === 'ArrowRight') {
-        goToSlide(currentSlide + 1);
-    }
-});
-
-// Function to open carousel
-function openCarousel(collectionId) {
-    if (!collections[collectionId]) return;
-    
-    currentCollection = collectionId;
-    const collection = collections[collectionId];
-    
-    // Set title
-    modalTitle.textContent = collection.title;
-    
-    // Clear previous slides and indicators
-    carouselTrack.innerHTML = '';
-    carouselIndicators.innerHTML = '';
-    slides = [];
-    indicators = [];
-    
-    // Obtén el número de imágenes para esta colección
-    const imageCount = collection.count;
-    
-    // Create slides and indicators
-    for (let i = 1; i <= imageCount; i++) {
-        // Create slide
-        const slide = document.createElement('div');
-        slide.className = 'carousel-slide';
-        
-        // Usar la ruta real a la imagen
-        const img = document.createElement('img');
-        img.src = `${collection.folder}${i}.jpeg`; // Ruta correcta a tus imágenes .jpeg
-        img.alt = `${collection.title} - Imagen ${i}`;
-        
-        // Manejo de errores para imágenes que no cargan
-        img.onerror = function() {
-            this.onerror = null;
-            this.src = `/api/placeholder/450/600?text=${collection.title} ${i}`; // Fallback a placeholder
+        // Configuración de colecciones
+        const collections = {
+            'vestidosnovia': {
+                title: 'Vestidos de Novia',
+                folder: '../colecciones/vestidosnovia/',
+                count: 10
+            },
+            'trajesceremonia': {
+                title: 'Trajes de Ceremonia',
+                folder: '../colecciones/trajesceremonia/',
+                count: 10
+            },
+            'vestidosgala': {
+                title: 'Vestidos de Gala',
+                folder: '../colecciones/vestidosgala/',
+                count: 10
+            },
+            'trajesnovios': {
+                title: 'Trajes de Novios',
+                folder: '../colecciones/trajesnovios/',
+                count: 10
+            },
+            'vestidosquinceanos': {
+                title: 'Vestidos de Quinceañeras',
+                folder: '../colecciones/vestidosquinceanos/',
+                count: 10
+            },
+            'trajecasualelegante': {
+                title: 'Traje Casual Elegante',
+                folder: '../colecciones/trajecasualelegante/',
+                count: 7
+            },
+            'trajecasualelegantemujeres': {
+                title: 'Traje Casual Elegante para Mujeres',
+                folder: '../colecciones/trajecasualelegantemujeres/',
+                count: 10
+            },
+            'acceoriosnupcial': {
+                title: 'Accesorios Nupciales',
+                folder: '../colecciones/acceoriosnupcial/',
+                count: 10
+            },
+            'modajuniors': {
+                title: 'Moda Juniors',
+                folder: '../colecciones/modajuniors/',
+                count: 9
+            }
         };
-        
-        slide.appendChild(img);
-        carouselTrack.appendChild(slide);
-        slides.push(slide);
-        
-        // Create indicator
-        const indicator = document.createElement('div');
-        indicator.className = 'carousel-indicator';
-        indicator.addEventListener('click', () => {
-            goToSlide(i - 1);
-        });
-        
-        carouselIndicators.appendChild(indicator);
-        indicators.push(indicator);
-    }
-    
-    // Show modal with animation
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden'; // Prevent scrolling
-    
-    // Set initial slide
-    currentSlide = 0;
-    goToSlide(0);
-}
 
-// Function to close carousel
-function closeCarousel() {
-    modal.classList.remove('active');
-    document.body.style.overflow = ''; // Enable scrolling
-    
-    // Clean up
-    setTimeout(() => {
-        if (!modal.classList.contains('active')) {
+        // Elements
+        const modal = document.getElementById('carousel-modal');
+        const modalTitle = document.getElementById('carousel-title');
+        const carouselTrack = document.querySelector('.carousel-track');
+        const carouselIndicators = document.querySelector('.carousel-indicators');
+        const prevButton = document.querySelector('.prev-button');
+        const nextButton = document.querySelector('.next-button');
+        const closeButton = document.querySelector('.carousel-close');
+
+        // Variables
+        let currentSlide = 0;
+        let slides = [];
+        let indicators = [];
+        let currentCollection = '';
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        // Open carousel when clicking on "Ver Colección"
+        document.querySelectorAll('.view-collection').forEach(button => {
+            button.addEventListener('click', function() {
+                const collectionId = this.getAttribute('data-collection');
+                openCarousel(collectionId);
+            });
+        });
+
+        // Close carousel
+        closeButton.addEventListener('click', closeCarousel);
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                closeCarousel();
+            }
+        });
+
+        // Navigation buttons
+        prevButton.addEventListener('click', () => {
+            goToSlide(currentSlide - 1);
+        });
+
+        nextButton.addEventListener('click', () => {
+            goToSlide(currentSlide + 1);
+        });
+
+        // Touch events
+        carouselTrack.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        });
+
+        carouselTrack.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        });
+
+        // Keyboard events
+        document.addEventListener('keydown', (e) => {
+            if (!modal.classList.contains('active')) return;
+            
+            if (e.key === 'Escape') {
+                closeCarousel();
+            } else if (e.key === 'ArrowLeft') {
+                goToSlide(currentSlide - 1);
+            } else if (e.key === 'ArrowRight') {
+                goToSlide(currentSlide + 1);
+            }
+        });
+
+        // Function to open carousel
+        function openCarousel(collectionId) {
+            if (!collections[collectionId]) return;
+            
+            currentCollection = collectionId;
+            const collection = collections[collectionId];
+            
+            modalTitle.textContent = collection.title;
             carouselTrack.innerHTML = '';
             carouselIndicators.innerHTML = '';
             slides = [];
             indicators = [];
+            
+            const imageCount = collection.count;
+            
+            for (let i = 1; i <= imageCount; i++) {
+                const slide = document.createElement('div');
+                slide.className = 'carousel-slide';
+                
+                const img = document.createElement('img');
+                img.src = `${collection.folder}${i}.jpeg`;
+                img.alt = `${collection.title} - Imagen ${i}`;
+                
+                img.onerror = function() {
+                    this.onerror = null;
+                    this.src = `/api/placeholder/450/600?text=${collection.title} ${i}`;
+                };
+                
+                slide.appendChild(img);
+                carouselTrack.appendChild(slide);
+                slides.push(slide);
+                
+                const indicator = document.createElement('div');
+                indicator.className = 'carousel-indicator';
+                indicator.addEventListener('click', () => {
+                    goToSlide(i - 1);
+                });
+                
+                carouselIndicators.appendChild(indicator);
+                indicators.push(indicator);
+            }
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            
+            currentSlide = 0;
+            goToSlide(0);
         }
-    }, 300);
-}
 
-// Function to go to a specific slide
-function goToSlide(index) {
-    if (slides.length === 0) return;
-    
-    // Ensure the index is within bounds (loop around)
-    if (index < 0) {
-        index = slides.length - 1;
-    } else if (index >= slides.length) {
-        index = 0;
-    }
-    
-    currentSlide = index;
-    
-    // Update slides
-    slides.forEach((slide, i) => {
-        slide.classList.remove('active');
-        if (i === currentSlide) {
-            slide.classList.add('active');
+        // Function to close carousel
+        function closeCarousel() {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+            
+            setTimeout(() => {
+                if (!modal.classList.contains('active')) {
+                    carouselTrack.innerHTML = '';
+                    carouselIndicators.innerHTML = '';
+                    slides = [];
+                    indicators = [];
+                }
+            }, 300);
         }
-    });
-    
-    // Update indicators
-    indicators.forEach((indicator, i) => {
-        indicator.classList.remove('active');
-        if (i === currentSlide) {
-            indicator.classList.add('active');
+
+        // Function to go to slide
+        function goToSlide(index) {
+            if (slides.length === 0) return;
+            
+            if (index < 0) {
+                index = slides.length - 1;
+            } else if (index >= slides.length) {
+                index = 0;
+            }
+            
+            currentSlide = index;
+            
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === currentSlide) {
+                    slide.classList.add('active');
+                }
+            });
+            
+            indicators.forEach((indicator, i) => {
+                indicator.classList.remove('active');
+                if (i === currentSlide) {
+                    indicator.classList.add('active');
+                }
+            });
+            
+            let slideWidth = 33.333;
+            if (window.innerWidth <= 992 && window.innerWidth > 768) {
+                slideWidth = 50;
+            } else if (window.innerWidth <= 768) {
+                slideWidth = 100;
+            }
+            
+            const adjustedTranslateX = -currentSlide * slideWidth + (100 - slideWidth) / 2;
+            carouselTrack.style.transform = `translateX(${adjustedTranslateX}%)`;
         }
-    });
-    
-    // Calculate the position to center the current slide
-    // For 3D effect, we need to adjust the transform
-    const translateX = -currentSlide * 33.333 + (100 - 33.333) / 2;
-    
-    // Adjust for responsive layouts
-    let slideWidth = 33.333;
-    if (window.innerWidth <= 992 && window.innerWidth > 768) {
-        slideWidth = 50;
-    } else if (window.innerWidth <= 768) {
-        slideWidth = 100;
-    }
-    
-    const adjustedTranslateX = -currentSlide * slideWidth + (100 - slideWidth) / 2;
-    
-    // Apply the transform
-    carouselTrack.style.transform = `translateX(${adjustedTranslateX}%)`;
-}
 
-// Handle swipe gestures
-function handleSwipe() {
-    const swipeDistance = touchEndX - touchStartX;
-    const minSwipeDistance = 50;
-    
-    if (swipeDistance > minSwipeDistance) {
-        // Swiped right, go to previous slide
-        goToSlide(currentSlide - 1);
-    } else if (swipeDistance < -minSwipeDistance) {
-        // Swiped left, go to next slide
-        goToSlide(currentSlide + 1);
-    }
-}
+        // Handle swipe
+        function handleSwipe() {
+            const swipeDistance = touchEndX - touchStartX;
+            const minSwipeDistance = 50;
+            
+            if (swipeDistance > minSwipeDistance) {
+                goToSlide(currentSlide - 1);
+            } else if (swipeDistance < -minSwipeDistance) {
+                goToSlide(currentSlide + 1);
+            }
+        }
 
-// Handle window resize
-window.addEventListener('resize', () => {
-    if (slides.length > 0) {
-        goToSlide(currentSlide); // Recalculate positions
-    }
-});
-</script>
-<script>
-        // JavaScript para activar la animación cuando la sección sea visible
+        // Handle resize
+        window.addEventListener('resize', () => {
+            if (slides.length > 0) {
+                goToSlide(currentSlide);
+            }
+        });
+    </script>
+
+    <!-- Script para animación de fotos -->
+    <script>
         document.addEventListener('DOMContentLoaded', function() {
             const photosSection = document.querySelector('.animated-photos-section');
             const photosContainer = document.querySelector('.photos-container');
             const nameReveal = document.querySelector('.name-reveal');
             
-            // Intersection Observer para detectar cuando la sección es visible
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        // Activar animación de las fotos
                         photosContainer.classList.add('animate');
                         
-                        // Mostrar el nombre después de que pasen todas las fotos
                         setTimeout(() => {
                             nameReveal.classList.add('show');
-                        }, 2000); // 2 segundos después de que empiecen las fotos
+                        }, 2000);
                         
-                        // Desconectar el observer después de la primera activación
                         observer.unobserve(entry.target);
                     }
                 });
             }, {
-                threshold: 0.3 // Activar cuando el 30% de la sección sea visible
+                threshold: 0.3
             });
             
             observer.observe(photosSection);

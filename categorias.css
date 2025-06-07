@@ -1,0 +1,260 @@
+/* Fix para el logo en subcarpetas */
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .logo img {
+            height: 100%;
+            width: auto;
+            max-height: 40px;
+            object-fit: contain;
+        }
+
+        /* Asegurar que el header-container mantenga la estructura correcta */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            max-width: none;
+        }
+
+        /* Breadcrumbs */
+        .breadcrumbs {
+            background-color: var(--off-white);
+            padding: 15px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .breadcrumbs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .breadcrumbs ol {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .breadcrumbs li {
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumbs li:not(:last-child)::after {
+            content: '>';
+            margin: 0 10px;
+            color: var(--medium-gray);
+            font-size: 0.8rem;
+        }
+
+        .breadcrumbs a {
+            color: var(--dark-gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumbs a:hover {
+            color: var(--accent-purple);
+        }
+
+        .breadcrumbs .current {
+            color: var(--accent-purple);
+            font-weight: 500;
+        }
+
+        /* Header con dropdown */
+        .nav-dropdown {
+            position: relative;
+        }
+
+        .nav-dropdown .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--primary-black);
+            min-width: 250px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1001;
+            border-top: 2px solid var(--accent-purple);
+        }
+
+        .nav-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            color: var(--primary-white);
+            padding: 12px 20px;
+            text-decoration: none;
+            display: block;
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .dropdown-content a:hover {
+            background-color: var(--accent-purple);
+        }
+
+        /* Sección principal de categoría */
+        .category-hero {
+            padding: 100px 0 60px;
+            background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+        }
+
+        .category-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .category-intro {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .category-intro h1 {
+            font-size: 2.8rem;
+            color: var(--primary-black);
+            margin-bottom: 20px;
+            font-family: var(--font-heading);
+        }
+
+        .category-intro p {
+            font-size: 1.2rem;
+            color: var(--dark-gray);
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Servicios como H2 */
+        .services-section {
+            padding: 60px 0;
+            background-color: var(--primary-white);
+        }
+
+        .service-item {
+            margin-bottom: 50px;
+            padding: 40px;
+            background: var(--off-white);
+            border-left: 4px solid var(--accent-purple);
+            border-radius: 0 8px 8px 0;
+        }
+
+        .service-item h2 {
+            font-size: 1.8rem;
+            color: var(--primary-black);
+            margin-bottom: 20px;
+            font-family: var(--font-heading);
+        }
+
+        .service-item p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: var(--dark-gray);
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .service-link {
+            color: var(--accent-purple);
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-link:hover {
+            color: var(--accent-purple-light);
+            transform: translateX(5px);
+        }
+
+        .service-link i {
+            margin-left: 8px;
+            font-size: 0.9rem;
+        }
+
+        /* Sección de zonas de cobertura */
+        .coverage-section {
+            padding: 60px 0;
+            background-color: var(--off-white);
+        }
+
+        .coverage-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .coverage-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .coverage-card {
+            background: var(--primary-white);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .coverage-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .coverage-card h3 {
+            font-size: 1.3rem;
+            color: var(--primary-black);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--accent-purple);
+            padding-bottom: 10px;
+        }
+
+        .coverage-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .coverage-card li {
+            padding: 5px 0;
+            color: var(--dark-gray);
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .coverage-card li:last-child {
+            border-bottom: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .category-intro h1 {
+                font-size: 2.2rem;
+            }
+            
+            .service-item {
+                padding: 25px;
+            }
+            
+            .nav-dropdown .dropdown-content {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                right: 0;
+                min-width: 100%;
+            }
+        }
